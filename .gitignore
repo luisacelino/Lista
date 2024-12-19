@@ -1,0 +1,26 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore node_modules (dependency folder)
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore package-lock.json (if you don't want to track exact versions)
+package-lock.json
+
+# Ignore any build or dist directories (if applicable in the future)
+build/
+dist/
+
+# Ignore environment files (if applicable)
+.env
+
+# Do not ignore the public folder (keep tracked)
+!public/
+
+# Do not ignore server.js (keep tracked)
+!server.js
+
+# You can add additional files/folders as necessary

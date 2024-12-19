@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Lista Gratis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1> Lista Gratis | Faça sua lista e compartilhe </h1>
+    <button id="createListBtn">Create a List</button>
+
+    <!-- Generated link container -->
+    <div id="generatedLinkContainer" style="display:none;">
+        <div id="generatedLink"></div>
+        <button id="copyLinkBtn">Copy</button>
+    </div>
+
+    <div id="listContainer" style="display:none;">
+        <input type="text" id="newItemInput" disabled placeholder="New item">
+        <button id="addItemBtn" disabled>Add Item</button>
+        <ul id="checklist"></ul>
+    </div>
+
+    <!-- Edit Item Modal -->
+    <div id="editModal" style="display: none;">
+        <div class="modal-content">
+            <input type="text" id="editItemInput">
+            <button id="saveEditBtn">Save</button>
+            <button id="cancelEditBtn">Cancel</button>
+        </div>
+    </div>
+
+    <footer>
+        <span>Developed by <strong>Luisa Celino</strong></span>
+        <span>
+            <a href="https://linkedin.com/in/luisa-celino" target="_blank">Link 3</a> |
+            <a href="https://github.com/luisa-celino" target="_blank">Link 1</a> |
+            <a href="https://github.com/luisa-celino" target="_blank">Link 2</a> |
+            <a href="mailto:luisacelino@example.com">luisacelino@example.com</a>
+        </span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
